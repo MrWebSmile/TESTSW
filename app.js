@@ -6,8 +6,8 @@ var app = new Vue({
   },
   methods:{
     add: function(){
-      this.todos.push({text:this.text})
-      console.log(this.todos)
+      this.todos.push( {text: this.text} )
+      console.log(this.todos.text)
     }
   }
 
