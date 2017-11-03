@@ -1,11 +1,11 @@
 var app = new Vue({
-  el:'#app',
+  el: '#app',
   data:{
-    todos:[],
+    todos: [],
     text: ""
   },
   methods:{
-    add:function(){
+    add: function(){
       this.todos.push(this.text);
       console.log(this.todos);
     }
