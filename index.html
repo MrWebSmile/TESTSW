@@ -8,6 +8,11 @@
     <div id="appTodo">
       <input v-model="text">
       <button v-on:click="add">+</button>
+      <ul>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ul>
     </div>
     <script src="app.js"></script>
   </body>
